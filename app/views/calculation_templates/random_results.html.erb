@@ -1,3 +1,17 @@
-<h1>
-hi
-</h1>
+<div class="result_banner">
+<h1>Random Results </h1>
+</div>
+
+<div class="result_buttons">
+  <div class="result_wrapper">
+    <dl>
+      <dt> Minimum: </dt> 
+      <dd> <%= @min %> </dd> 
+      <dt> Maximum: </dt>
+      <dd> <%= @max %> </dd>
+      <dt> Random number: <dt>
+      <dd> <%= @random_num %> </dd>
+      <dt> <a href="/random/new">Pick another random number</a> </dt>
+    </dl>
+  </div>
+</div>
